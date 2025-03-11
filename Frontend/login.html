@@ -195,7 +195,7 @@
                 success: function (response) {
                     localStorage.setItem("jwt_token", response.token);
                     $("#loginForm")[0].reset();
-                    window.location.href = "pages/dashboard.html";
+                    window.location.href = "index.html";
                 },
                 error: function (xhr, status, error) {
                     alert("Login failed. Please check your credentials.");
